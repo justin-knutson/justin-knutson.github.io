@@ -42,6 +42,7 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat9.js'], function(A
 			image : 'https://baranan.github.io/minno-tasks/images/'
         },
         
+        finalText : 'Press space to continue', 
         showDebriefing : true, //Show feedback in the last trial? Relevant only in a Qualtrics IAT because in Qualtrics we cannot access the saved feedback and IAT score later in the survey.
         //Texts for the trials that show the debriefing.
         debriefingTextBottom : '', //Will be shown below the feedback text. 
